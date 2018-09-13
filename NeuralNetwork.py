@@ -21,7 +21,7 @@ class Layer:
 #        out = np.exp(out) / np.sum(np.exp(out))
         return out
 
-#The Nerual Network arcitechture, contains functions to train the network and give a guess
+#The Nerual Network architechture, contains functions to train the network and give a guess
 class NeuralNetwork:
     def __init__(self, inputNum, hiddenNum, outputNum):
         #Setting up layers for network
