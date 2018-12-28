@@ -3,12 +3,10 @@ Created: July 2018
 Updated: December 2018
 
 @author: Andrew Farley
-
-
 """
 
 import numpy as np
-from numpy import array #needed to read numpy arrays from strings
+from numpy import array #needed to read numpy arrays from strings with eval()
 
 #------------ HELPER FUNCTIONS -----------------------------
 
